@@ -7,9 +7,4 @@ public interface PersonService {
 
     Mono<Person> getPerson(String id);
 
-    Mono<Float> getBalance(String id);
-
-
-
-
 }

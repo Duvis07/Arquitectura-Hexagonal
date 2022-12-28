@@ -12,16 +12,10 @@ public class PersonUseCase {
     private final PersonService personService;
 
 
-    public Mono< Person > getPerson(String id){
-        return personService.getPerson(id);
+    public Mono < Person > getPerson ( String id ) {
+        return personService.getPerson ( id );
 
     }
-
-
-    public Mono< Float > getBalance(String id){
-        return personService.getBalance(id);
-    }
-
 
 
 }

@@ -9,7 +9,8 @@ public class Person {
 
     private String id;
     private String name;
-    private String balance;
-
+    private String apellido;
+    private Integer edad;
+    private String direccion;
 
 }
